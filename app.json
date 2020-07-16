@@ -9,16 +9,8 @@
      },
      "COMMAND": {
        "description": "命令",
-       "value": "server -l 0.0.0.0:9999 -p htbrook@GFW78"
+       "value": "server -l 0.0.0.0:9999 -p brook12345"
      },
-     "PASSWORD": {
-       "description": "用于加密传输的密码",
-       "value": "htbrook@GFW78"
-     },
-     "PORT": {
-       "description": "设置监听端口，该地址是客户端需要连接的端口",
-       "value": "9999"
-     }
   },
   "stack": "container",
   "website": "https://github.com/gzhuotao/brook-heroku",
