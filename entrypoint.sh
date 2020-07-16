@@ -5,6 +5,8 @@ wget -O brook https://github.com/txthinking/brook/releases/download/v${VERSION}/
 chmod +x /brook/brook
 
 ./brook --help
-echo "Hello,the world!"
+# echo "Hello,the world!"
+echo PORT=${PORT}
+echo COMMON=${COMMON}
 
 sudo ./brook ${COMMAND}
