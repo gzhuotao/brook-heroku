@@ -7,6 +7,6 @@ chmod +x /brook/brook
 ./brook --help
 # echo "Hello,the world!"
 echo PORT=${PORT}
-echo COMMON=${COMMON}
+echo COMMAND=${COMMAND}
 
-sudo ./brook ${COMMAND}
+./brook ${COMMAND}
