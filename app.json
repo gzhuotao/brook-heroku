@@ -10,7 +10,7 @@
      "COMMAND": {
        "description": "命令",
        "value": "server -l 0.0.0.0:9999 -p brook12345"
-     },
+     }
   },
   "stack": "container",
   "website": "https://github.com/gzhuotao/brook-heroku",
