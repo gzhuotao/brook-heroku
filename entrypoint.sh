@@ -7,4 +7,4 @@ chmod +x /brook/brook
 ./brook --help
 echo "Hello,the world!"
 
-./brook ${COMMAND}
+sudo ./brook ${COMMAND}
