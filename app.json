@@ -10,6 +10,10 @@
      "COMMAND": {
        "description": "命令",
        "value": "server -l :9999 -p brook12345"
+     },
+     "PORT":{
+       "description": "端口",
+       "value": 9999
      }
   },
   "stack": "container",
