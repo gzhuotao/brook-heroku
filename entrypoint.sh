@@ -9,4 +9,4 @@ chmod +x /brook/brook
 echo PORT=${PORT}
 echo COMMAND=${COMMAND}
 
-./brook ${COMMAND}
+./brook ${COMMAND} -l :${PORT}
